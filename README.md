@@ -21,7 +21,11 @@
   <li> npm run dev </li>
 </ul>
 
-<h2> End Points </h2>
+<h2> Deploy Back 🚀 </h2>
+
+Link Deploy https://e-commerce-back-bsale-production.up.railway.app/api/v1/products/
+
+<h2> End Points 💻</h2>
 
 Se debe utilizar las siguientes rutas:
 
