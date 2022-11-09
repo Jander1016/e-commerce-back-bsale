@@ -1,0 +1,35 @@
+{
+  "name": "e-commerce-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jander1016/e-commerce-back-bsale.git"
+  },
+  "keywords": [],
+  "author": "Jander Gomez Barrueta <jandergb.30@gmail.com> (https://www.linkedin.com/in/jandergomezbarrueta/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jander1016/e-commerce-back-bsale/issues"
+  },
+  "homepage": "https://github.com/Jander1016/e-commerce-back-bsale#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.4",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.6.0"
+  }
+}
