@@ -21,8 +21,7 @@
   <li> npm run dev </li>
 </ul>
 
-<h2> End Points ![image](https://user-images.githubusercontent.com/58518358/200801076-ddf8c23c-c487-46f2-a4bc-c0560aac703f.png)
-</h2>
+<h2> End Points </h2>
 
 Se debe utilizar las siguientes rutas:
 
