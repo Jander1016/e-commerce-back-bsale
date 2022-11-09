@@ -10,7 +10,7 @@ const cache =apicache.middleware
 
 server.use(express.json());
 server.use(cors());
-// server.use(cache('5 minutes'));
+server.use(cache('5 minutes'));
 
 server.use('/api/v1', v1RouterProduct)
 server.use('/api/v1', v1RouterCategory)
