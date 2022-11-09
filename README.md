@@ -23,14 +23,14 @@
 
 <h2> End Points 💪</h2>
 
-Se debe desarrollar un servidor en Node/Express con las siguientes rutas:
+Se debe utilizar las siguientes rutas:
 
 - [x] __GET /products__:
   - Obtener un listado de los productos desde la base de datos.
   - Debe devolver solo los datos necesarios para la ruta principal
 - [x] __GET /products/{name}__:
   - Obtiene el detalle de un producto en particular
-  - Obtiene el filtrado de productos
+  - Obtiene el filtrado de productos puede ser 1 o mas.
 - [x] __GET /categories__:
   - Obtener todos las categorias a las que pertenecen los productos
 
