@@ -26,12 +26,11 @@
 Se debe utilizar las siguientes rutas:
 
 - [x] __GET /products__:
-  - Obtener un listado de los productos desde la base de datos.
-  - Debe devolver solo los datos necesarios para la ruta principal
+  - Obtiene un listado de los productos desde la base de datos.
 - [x] __GET /products/{name}__:
-  - Obtiene el detalle de un producto en particular
+  - Obtiene el detalle de un producto en particular.
   - Obtiene el filtrado de productos puede ser 1 o mas.
+- [x] __GET /products/category/{category}__:
+  - Obtiene los productos según la categoria seleccionada.
 - [x] __GET /categories__:
-  - Obtener todos las categorias a las que pertenecen los productos
-
-
+  - Obtener todos las categorias de la base de datos
