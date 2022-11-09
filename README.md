@@ -34,3 +34,11 @@ Se debe utilizar las siguientes rutas:
   - Obtiene los productos según la categoria seleccionada.
 - [x] __GET /categories__:
   - Obtener todos las categorias de la base de datos
+
+<h2> Documentación API📃</h2>
+
+<p>Para ver la documentación de la API</p>
+
+<p>https://e-commerce-back-bsale-production.up.railway.app/api/v1/docs/</p>
+
+
