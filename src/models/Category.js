@@ -1,8 +1,9 @@
-const {conn} = require("../database/db")
+const Category = require("./CategoryModel");
 
 const allCategories = async () => {
   try {
-    const [listCategories] = await conn.query('SELECT * FROM category')
+    // const [listCategories] = await conn.query('SELECT * FROM category')
+     const listCategories = await Category.findAll();
     return listCategories
   } catch (error) {
     throw{
