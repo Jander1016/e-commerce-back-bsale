@@ -3,14 +3,13 @@ const {conn} = require("../database/db")
 const Category = require("./CategoryModel")
 const Product = require("./ProductModel")
 
-const sqlProduct = 'SELECT p.id, p.name, p.url_image, p.price, p.discount, c.name as category FROM product p, category c WHERE c.id = p.category'
+// const sqlProduct = 'SELECT p.id, p.name, p.url_image, p.price, p.discount, c.name as category FROM product p, category c WHERE c.id = p.category'
 
 const allProducts = async () => {
   try {
     // const [listProducts] = await conn.query(sqlProduct + ' order by p.id asc')
     const listProducts = await Product.findAll( { include: {
       model: Category,
-
     }})
     return listProducts
   } catch (error) {
